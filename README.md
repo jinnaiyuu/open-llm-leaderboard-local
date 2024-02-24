@@ -17,8 +17,8 @@ Huggingface の [Open LLM Leaderboard](https://huggingface.co/spaces/HuggingFace
 - Python 3.9 以上
 - ライブラリは lm-evaluation-harness + wandb を使用します
   ```bash
-    git clone --recuresive https://github.com/llm-jp/open-llm-leaderboard-local.git
-    cd lm-evaluation-harness  # lm-evaluation-harness の commit-id が b281b09 であることを確認
+    git clone --recursive https://github.com/llm-jp/open-llm-leaderboard-local.git
+    cd open-llm-leaderboard-local/lm-evaluation-harness  # lm-evaluation-harness の commit-id が b281b09 であることを確認
     pip install -e ".[sentencepiece]"  # 必要に応じて extras_require を指定
     pip install wandb
   ```
